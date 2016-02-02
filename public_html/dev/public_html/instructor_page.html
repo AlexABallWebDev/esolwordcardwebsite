@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESOL Card Website - Instructor Dashboard</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+  crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <img class="grc-logo img-responsive" src="img/grc.jpg" alt="GRC" style="height: 50px" />
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">ESOL Card Website</a>
+      </div>
+      <div class="pull-right">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="instructor_page.html">Instructor</a></li>
+          <li><a href="newsigninpage/Log.html">Log out</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <span class="glyphicon glyphicon-folder-close">
+                  </span>Cards</a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-pencil text-primary"></span><a href="student_review_cards.html">View Cards</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-flash text-success"></span><a href="student_review_cards.html">Grade Cards</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-file text-info"></span><a href="http://www.jquery2dotnet.com">Edit Book</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-comment text-success"></span><a href="student_review_cards.html">All Cards</a>
+                      <span class="badge">42</span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  <span class="glyphicon glyphicon-th">
+                  </span>Chapters</a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Orders</a>
+                      <span class="label label-success">$ 320</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Invoices</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Shipments</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Tex</a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                  <span class="glyphicon glyphicon-user">
+                  </span>Classmates</a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Change Password</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Notifications</a>
+                      <span class="label label-info">5</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Import/Export</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-trash text-danger"></span><a href="http://www.jquery2dotnet.com" class="text-danger">
+                                          Delete Account</a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                  <span class="glyphicon glyphicon-file">
+                  </span>Test Reports</a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-usd"></span><a href="http://www.jquery2dotnet.com">Sales</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-user"></span><a href="http://www.jquery2dotnet.com">Customers</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-tasks"></span><a href="http://www.jquery2dotnet.com">Products</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-shopping-cart"></span><a href="http://www.jquery2dotnet.com">Shopping Cart</a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-9 col-sm-9 col-md-9">
+        <div class="well">
+          <div class="row">
+            <h1 class="col-sm-4 col-md-4 pull-left">Student Cards</h1>
+            <div class="form-group col-sm-4 col-md-4 pull-right">
+              <label for="sel1">Chapter:</label>
+              <select class="form-control" id="sel1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 card-container">
+              <div class="card card-block">
+                <h3 class="card-title">Programmer</h3>
+                <p class="card-text">A person who creates and maintains computer programs</p>
+                <a href="grade_card_page.html" class="btn btn-green">Grade Card</a>
+              </div>
+            </div>
+            <div class="col-sm-6 card-container">
+              <div class="card card-block">
+                <h3 class="card-title">Table</h3>
+                <p class="card-text">A table stores information in cells, which are in columns and rows.</p>
+                <a href="grade_card_page.html" class="btn btn-green">Grade Card</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 card-container">
+              <div class="card card-block">
+                <h3 class="card-title">Internet</h3>
+                <p class="card-text"> an electronic communications network that connects computer networks and ...</p>
+                <a href="grade_card_page.html" class="btn btn-green">Grade Card</a>
+              </div>
+            </div>
+            <div class="col-sm-6 card-container">
+              <div class="card card-block">
+                <h3 class="card-title">Website</h3>
+                <p class="card-text">a place on the World Wide Web that contains information about a person, organization, ...</p>
+                <a href="grade_card_page.html" class="btn btn-green">Grade Card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<footer class="footer navbar-fixed-bottom">
+  <p class="text-muted">Instructor Information: <a href="mailto:javery@greenriver.edu">
+						javery@greenriver.edu</a></p>
+</footer>
+
+</html>

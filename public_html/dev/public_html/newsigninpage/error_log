@@ -1,0 +1,56 @@
+[11-Nov-2015 13:08:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/signUpdata.php:12) in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 40
+[11-Nov-2015 13:11:42 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 8
+[11-Nov-2015 13:13:10 America/Chicago] PHP Fatal error:  Call to undefined function test_input() in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 10
+[17-Nov-2015 17:08:34 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/anarchy/public_html/newsigninpage/logIn.php on line 33
+[17-Nov-2015 17:11:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/anarchy/public_html/newsigninpage/logIn.php on line 43
+[17-Nov-2015 17:11:40 America/Chicago] PHP Warning:  require(db.php): failed to open stream: No such file or directory in /home/anarchy/public_html/newsigninpage/logIn.php on line 6
+[17-Nov-2015 17:11:40 America/Chicago] PHP Warning:  require(db.php): failed to open stream: No such file or directory in /home/anarchy/public_html/newsigninpage/logIn.php on line 6
+[17-Nov-2015 17:11:40 America/Chicago] PHP Fatal error:  require(): Failed opening required 'db.php' (include_path='.:/opt/php54/lib/php') in /home/anarchy/public_html/newsigninpage/logIn.php on line 6
+[17-Nov-2015 17:29:59 America/Chicago] PHP Notice:  Undefined variable: r in /home/anarchy/public_html/newsigninpage/SignIn.php on line 34
+[17-Nov-2015 17:29:59 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 34
+[17-Nov-2015 17:36:44 America/Chicago] PHP Notice:  Undefined variable: r in /home/anarchy/public_html/newsigninpage/SignIn.php on line 34
+[17-Nov-2015 17:36:44 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 34
+[17-Nov-2015 17:38:05 America/Chicago] PHP Notice:  Undefined variable: r in /home/anarchy/public_html/newsigninpage/SignIn.php on line 34
+[17-Nov-2015 17:38:05 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 34
+[17-Nov-2015 17:38:13 America/Chicago] PHP Notice:  Undefined variable: r in /home/anarchy/public_html/newsigninpage/SignIn.php on line 34
+[17-Nov-2015 17:38:13 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 34
+[17-Nov-2015 18:00:57 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 43
+[17-Nov-2015 18:01:24 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 43
+[17-Nov-2015 18:03:14 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 43
+[17-Nov-2015 18:03:24 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 43
+[17-Nov-2015 18:03:58 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 43
+[17-Nov-2015 18:07:50 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 43
+[17-Nov-2015 18:11:30 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 39
+[17-Nov-2015 18:11:45 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 39
+[17-Nov-2015 18:12:25 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 39
+[17-Nov-2015 18:12:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 39
+[17-Nov-2015 18:16:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 41
+[17-Nov-2015 18:24:11 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 41
+[17-Nov-2015 18:26:24 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 41
+[17-Nov-2015 18:28:05 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/SignIn.php on line 43
+[17-Nov-2015 18:28:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/SignIn.php:43) in /home/anarchy/public_html/newsigninpage/SignIn.php on line 47
+[17-Nov-2015 18:30:11 America/Chicago] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/anarchy/public_html/newsigninpage/SignIn.php on line 45
+[17-Nov-2015 18:32:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/SignIn.php:46) in /home/anarchy/public_html/newsigninpage/SignIn.php on line 47
+[18-Nov-2015 18:23:49 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 55
+[18-Nov-2015 18:23:50 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/signUpdata.php:55) in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 66
+[18-Nov-2015 18:25:34 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 55
+[18-Nov-2015 18:25:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/signUpdata.php:55) in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 66
+[18-Nov-2015 18:27:41 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 55
+[18-Nov-2015 18:27:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/signUpdata.php:55) in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 67
+[18-Nov-2015 18:30:05 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 55
+[18-Nov-2015 18:30:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/signUpdata.php:55) in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 67
+[18-Nov-2015 22:15:34 America/Chicago] PHP Notice:  Use of undefined constant cnxn - assumed 'cnxn' in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 51
+[18-Nov-2015 22:15:34 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, string given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 51
+[18-Nov-2015 22:15:34 America/Chicago] PHP Notice:  Use of undefined constant cnxn - assumed 'cnxn' in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 68
+[18-Nov-2015 22:15:34 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, string given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 68
+[18-Nov-2015 22:15:34 America/Chicago] PHP Notice:  Use of undefined constant cnxn - assumed 'cnxn' in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 69
+[18-Nov-2015 22:15:34 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, string given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 69
+[18-Nov-2015 22:15:34 America/Chicago] PHP Notice:  Use of undefined constant cnxn - assumed 'cnxn' in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 70
+[18-Nov-2015 22:15:34 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, string given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 70
+[18-Nov-2015 22:15:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/signUpdata.php:51) in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 78
+[18-Nov-2015 22:16:22 America/Chicago] PHP Notice:  Undefined variable: cnxn in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 51
+[18-Nov-2015 22:16:22 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 51
+[18-Nov-2015 22:16:26 America/Chicago] PHP Notice:  Undefined variable: cnxn in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 51
+[18-Nov-2015 22:16:26 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/anarchy/public_html/newsigninpage/signUpdata.php on line 51
+[01-Dec-2015 10:30:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/SignIn.php:62) in /home/anarchy/public_html/newsigninpage/SignIn.php on line 63
+[01-Dec-2015 10:30:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anarchy/public_html/newsigninpage/SignIn.php:62) in /home/anarchy/public_html/newsigninpage/SignIn.php on line 67

@@ -1,0 +1,367 @@
+/* NEW NAV BAR*/
+/** {
+margin: 0;
+padding: 0;
+}*/
+
+/*USE IT LATER background-color: rgba(255,255,255,0.5);*/
+.navbarremove {
+list-style: none;
+
+}
+
+#wrapper {
+	/*INTERFACE Box*/
+/*position: absolute;*/
+width: 100%;
+height: 100%;
+overflow: hidden;
+margin-top: 1.6cm;
+
+}
+
+label {
+cursor: pointer;
+}
+label:focus {
+outline: none;
+}
+
+.menu {
+z-index: 5;
+position: absolute;
+top: 0;
+left: 0;
+background: #fff;
+width: 240px;
+height: 100%;
+transform: translate3d(-240px, 0, 0);
+transition: transform 0.35s;
+}
+.menu label.menu-toggle {
+position: absolute;
+right: -60px;
+width: 60px;
+height: 60px;
+line-height: 0px;
+display: block;
+padding: 0;
+text-indent: -9999px;
+background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
+}
+.menu ul li > label {
+
+/*background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png) 95% 50%/16px 16px no-repeat;*/
+}
+.menu ul li a, .menu ul li label {
+display: block;
+text-align: left;
+padding: 0 20px;
+line-height: 60px;
+text-decoration: none;
+color: #000;
+
+}
+.menu ul li a:hover, .menu ul li label:hover {
+color: #666;
+margin-left: 0;
+background-color: rgba(255,255,255,0.5);
+}
+
+/* hide inputs */
+.menu-checkbox {
+display: none;
+}
+
+/* hide navigation icon for sublabels */
+.menu .menu label.menu-toggle {
+background: none;
+}
+
+/* fade in checked menu */
+.menu-checkbox:checked + .menu {
+transform: translate3d(0, 0, 0);
+background-color: #F5F5F5;
+}
+
+/* for show */
+html, body {
+height: 100%;
+}
+
+/* NEW NAV BAR END */
+
+
+
+
+body {
+  /*margin-top: 50px;*/
+  /*background-color: #DFF0D8;*/
+	/*background-image: url("img/bg.jpg");*/
+
+	min-height: 100%;
+	background-color: #ffffff ;
+	background-image: /*url("img/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), */url("img/bg.jpg");
+	background-image: /*url("img/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), */url("img/bg.jpg");
+	background-image: /*url("img/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), */url("img/bg.jpg");
+	background-image: /*url("img/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), */url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed, fixed, fixed;
+	padding-bottom: 0px;
+}
+
+.grc-logo {
+  float:left;
+}
+
+/*homepage description paragraph*/
+.home_description {
+	margin: 3em 10% 0 10%;
+	font-size: 1.2em;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-header{
+  margin-left: 1.8em !important;
+}
+
+.card-container {
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+/* START card flip css changes */
+
+.front, .back {
+  border: 1px solid #578D99;
+  border-radius: 8px;
+  padding: 0.5em;
+  /*background-color: #B8D3E7;*/
+  background-color: #C8DDEC;
+  color: black;
+  padding: 1.1em;
+  /*text-shadow: 1px 1px 1px #578D99;*/
+}
+.card {
+  width: 100%;
+  height: 40vh;
+}
+
+.expand-card {
+  font-size: 1.5em;
+  color: #4255DD;
+}
+
+.card-text {
+  /*font-size: 1.5em;*/
+}
+
+.small-info {
+  font-size: 1em !important;
+}
+
+.card p {
+  font-size: 1.2em;
+}
+
+/* END card flip css changes */
+
+.btn-green {
+  color: #fff;
+  /*background-color: #398954;*/
+  background-color: #74A4AF;
+}
+
+.glyphicon {
+  margin-right: 10px;
+}
+.panel-body {
+  padding: 0px;
+}
+.panel-body table tr td {
+  padding-left: 15px
+}
+.panel-body .table {
+  margin-bottom: 0px;
+}
+
+.footer {
+  padding: 1em;
+  background-color: #F8F8F8;
+}
+
+.footer .col {
+ padding: 0 0.75em;
+ }
+ 
+.footer-pushed {
+	margin: 2% 0 0 0;
+}
+
+.align {
+	text-align: center;
+}
+
+.card-review {
+	text-align: left;
+}
+
+.right-border {
+	border-right: dashed 1px black;
+}
+
+/* START index page - Bogdan Pshonyak */
+
+.btn-main {
+ text-decoration: none;
+ text-shadow: none;
+ padding-top: 1em;
+ padding-bottom: 2em;
+ margin: 3em 10%;
+ height: 2em;
+ width: 80%;
+ vertical-align: middle;
+}
+
+/* End index page - Bogdan Pshonyak */
+
+/* START create card form page - Bogdan Pshonyak */
+
+.card-front {
+  border-right: 1px dashed #333;
+}
+
+.card-back h2, .card-front h2{
+  margin-top: 0px;
+  margin-bottom: 1em;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.form-horizontal {
+  padding-top: 2em;
+}
+
+.form_error {
+	color: red;
+}
+
+/* END create card form page - Bogdan Pshonyak */
+
+/* css to fix footer problem */
+
+/*
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom: 180px; //this needs to be bigger than footer height
+}
+
+ .footer {
+  position: relative;
+  margin-top: -60px; //negative value of footer height
+  height: 60px;
+  clear:both;
+  padding-top:20px;
+}
+*/
+
+/*well z-index so that the well does not cover the sidebar*/
+.well {
+	z-index: 2;
+}
+
+/*tick mark line for grade card page - Alex Ball */
+div.tick-mark-line {
+	float: left;
+	width: 33%;
+}
+
+#tick-three {
+	width: 1%;
+}
+/*end tick mark line for grade card page - Alex Ball */
+
+.grade-info {
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+
+/* Styling for the grade cards table  */
+
+.pagination>li {
+display: inline;
+padding:0px !important;
+margin:0px !important;
+border:none !important;
+}
+.modal-backdrop {
+  z-index: -1 !important;
+}
+/*
+Fix to show in full screen demo
+*/
+iframe
+{
+    height:700px !important;
+}
+
+.btn {
+display: inline-block;
+padding: 6px 12px !important;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
+.btn-primary {
+color: #fff !important;
+background: #428bca !important;
+border-color: #357ebd !important;
+box-shadow:none !important;
+}
+.btn-danger {
+color: #fff !important;
+background: #d9534f !important;
+border-color: #d9534f !important;
+box-shadow:none !important;
+}

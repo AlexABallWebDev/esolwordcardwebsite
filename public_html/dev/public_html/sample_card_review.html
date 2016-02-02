@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ESOL Card Website - Sample Review Card</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+  crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <img class="grc-logo img-responsive" src="img/grc.jpg" alt="GRC" style="height: 50px" />
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">ESOL Card Website</a>
+      </div>
+      <div class="pull-right">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="instructor_page.html">Instructor</a></li>
+          <li><a href="newsigninpage/Log.html">Log out</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <span class="glyphicon glyphicon-folder-close">
+                  </span>Cards</a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-pencil text-primary"></span><a href="create_card_form.php">Create Card</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-flash text-success"></span><a href="student_review_cards.html">Review Cards</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-file text-info"></span><a href="http://www.jquery2dotnet.com">Test Yourself</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-comment text-success"></span><a href="student_review_cards.html">Words</a>
+                      <span class="badge">42</span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  <span class="glyphicon glyphicon-th">
+                  </span>Chapters</a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Orders</a>
+                      <span class="label label-success">$ 320</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Invoices</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Shipments</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Tex</a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                  <span class="glyphicon glyphicon-user">
+                  </span>Classmates</a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Change Password</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Notifications</a>
+                      <span class="label label-info">5</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="http://www.jquery2dotnet.com">Import/Export</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-trash text-danger"></span><a href="http://www.jquery2dotnet.com" class="text-danger">
+                                          Delete Account</a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                  <span class="glyphicon glyphicon-file">
+                  </span>Test Reports</a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-usd"></span><a href="http://www.jquery2dotnet.com">Sales</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-user"></span><a href="http://www.jquery2dotnet.com">Customers</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-tasks"></span><a href="http://www.jquery2dotnet.com">Products</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="glyphicon glyphicon-shopping-cart"></span><a href="http://www.jquery2dotnet.com">Shopping Cart</a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-9 col-sm-9 col-md-9">
+        <div class="well">
+          <h1>Review Cards Page</h1>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 card-review right-border">
+							<h2 class="align">Front</h2>
+							<h4>Name:</h4>
+							<p>Alex Ball</p>
+							<h4>Chapter:</h4>
+							<p>3</p>
+							<h4>Vocabulary Word:</h4>
+							<p>Programmer</p>
+							<h4>Part of Speech:</h4>
+							<p>Noun</p>
+							<h4>Word in Use:</h4>
+							<p>The <strong>programmer</strong> created this webpage.</p>
+							<h4>Page Number:</h4>
+							<p>126</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 card-review">
+							<h2 class="align">Back</h2>
+							<h4>Definition:</h4>
+							<p>A person who creates and maintains
+										computer programs.</p>
+							<h4>My Example Sentence:</h4>
+							<p>There was a programmer on the team.</p>
+						</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer navbar-fixed-bottom">
+    <p class="text-muted">Instructor Information: <a href="mailto:javery@greenriver.edu">
+						javery@greenriver.edu</a></p>
+  </footer>
+
+</body>
+</html>
